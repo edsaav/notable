@@ -1,0 +1,372 @@
+/* CSS declarations go here */
+
+.checked .taskBody{
+  color: #868686;
+  text-decoration: line-through;
+}
+
+ul.tasks{
+  list-style-type: none;
+	padding-left: 10px;
+}
+
+ul.tasks li{
+  margin-bottom: 15px;
+	padding-bottom: 5px;
+}
+
+ul.nav{
+  border: none;
+	padding-left: 20px;
+}
+
+.addItem{
+  border-bottom: 1px solid #DDD;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.newNoteBar{
+  margin-bottom: 10px;
+}
+
+body {
+  padding-top: 70px;
+	background-image: url("cubes.png");
+	background-color: #fff;
+}
+
+input.newAccount{
+  margin-bottom: 10px;
+}
+
+input.newAccountButton{
+  margin-left: 10px;
+}
+
+input.editNoteButton{
+  margin-left: 10px;
+}
+
+span.caret{
+  margin-right: 10px;
+}
+
+.selectedAccount:active{
+  font-weight: bold;
+}
+
+.selectedAccount:link{
+  font-weight: bold;
+}
+
+.selectedAccount:hover{
+  font-weight: bold;
+}
+
+.dropdown-menu li button.close{
+  padding-right: 10px;
+	padding-top: 2px;
+}
+
+.companyOptions *:hover{
+  background-color: #F0F0F0 !important;
+}
+
+button.deleteCompany{
+  margin-left: 10px;
+}
+
+.navbar{
+  background-color: #d9edf7 !important;
+	border-color: #428bca !important;
+}
+
+.nav-tabs li.active a{
+  border-color: #428bca !important;
+	border-bottom-color: transparent !important;
+}
+
+.nav-tabs li:hover a{
+	border-bottom-color: #428bca !important;
+	margin-left: 1px;
+	border-left: none;
+	border-right-color: transparent;
+}
+
+.nav-tabs li.active:hover a{
+	border-bottom-color: transparent !important;
+	border-left-color: #428bca !important;
+	border-right-color: #428bca !important;
+	margin-left: 0px !important;
+}
+
+.newCall{
+  margin-bottom: 10px;
+}
+
+#thisIsDatePicker{
+  visibility: hidden;
+	height: 1px;
+	width: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.datepicker-dropdown{
+  margin-top: 34px;
+	margin-left: -7px;
+}
+
+.taskDueDate{
+  color: #CECECE;
+}
+
+.dropdown-menu{
+  width: 250px;
+}
+
+#login-dropdown-list{
+  list-style: none;
+}
+
+#login-dropdown-list a:hover{
+  background-color: #2180CF;
+	text-decoration: none !important;
+}
+
+#login-dropdown-list b.caret{
+  display:none;
+}
+
+#login-dropdown-list a{
+  background-color: rgb(66, 139, 202);
+  background-image: none;
+  border-bottom-color: rgb(53, 126, 189);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(53, 126, 189);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(53, 126, 189);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(53, 126, 189);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 23.9400005340576px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  overflow-x: visible;
+  overflow-y: visible;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  text-align: center;
+  text-indent: 0px;
+  text-shadow: none;
+  text-transform: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 152.0625px;
+  word-spacing: 0px; }
+	
+	input[type = "submit"]{
+	  outline: none !important;
+	}
+	
+	button{
+	  outline: none !important;
+	}
+	
+	ul.tasks li{
+	  border-bottom: 1px solid #ddd;
+		width: 100%;
+	}
+	
+	ul.tasks li label{
+		width: 100%;
+	}
+	
+	div.jumbotron{
+	  background-color: transparent !important;
+	}
+	
+	.clearTasks{
+	  margin-left: 5px;
+	}
+	
+	.taskEditButton{
+	  padding-left: 5px;
+	}
+	
+	.taskBody{
+	  display: inline !important;
+	}
+	
+	.taskLabel a{
+	  color: white;
+		display: inline !important;
+	}
+	
+	.taskLabel:hover a{
+	  color: #868686;
+	}
+	
+	.taskLabel:hover a:hover{
+	  color: #428bca;
+	}
+	
+li.checked label a.editTaskButton:hover{
+  color: #868686 !important;
+	text-decoration: none;
+}
+
+li.checked label a.editTaskButton{
+  color: white !important;
+	text-decoration: none;
+}
+
+.editTaskField{
+  margin-bottom: 10px;
+	border: none !important;
+	outline: 0 !important;
+	box-shadow: none !important;
+}
+
+input.editTaskField{
+	font-weight: bold;
+	border-bottom: 1px solid #CECECE;
+}
+
+.editDate{
+  color: #CECECE;
+	font-style: italic;
+}
+
+div.editTaskButtons .datePickerButton{
+  border: none;
+	color: #CECECE;
+}
+
+div.editTaskField{
+  color: #868686;
+	padding: 12px;
+}
+
+.editTaskButtons{
+  padding: 12px;
+}
+
+.editTaskField:focus{
+	outline: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.saveTask {
+  margin-left: 5px;
+}
+
+#oppMeetingDate{
+  padding: 6px 12px;
+}
+
+.newOppForm input{
+  margin-bottom: 5px;
+}
+
+button.addOpp{
+  margin-left: 5px;
+	margin-right: 3px;
+}
+
+.newOppForm .row div{
+  padding-left: 3px;
+	padding-right: 3px;
+}
+
+.newOppForm .row{
+  padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 5px;
+}
+
+button.newOppToggle{
+  margin-left: 40px;
+	display: inline;
+	margin-top: 15px;
+}
+
+button.newOppToggle:focus{
+  background-color: white;
+}
+
+button.newOppToggle:hover{
+  background-color: #ebebeb !important;
+}
+
+button.newOppToggle:active{
+  background-color: #ebebeb !important;
+}
+
+.underlineRow{
+  border-bottom: 1px solid #CECECE;
+	padding: 0px 3px 10px 3px;
+	margin-bottom: 15px;
+}
+
+.statusButtons button{
+  background-color: white;
+	color: black;
+}
+
+tr.success button.confirmOpp{
+  background-color: #5cb85c;
+	color: white;
+}
+
+tr.danger button.loseOpp{
+  background-color: #d9534f;
+	color: white;
+}
+
+tr.warning button.rescheduleOpp{
+  background-color: #f0ad4e;
+	color: white;
+}
+
+button.confirmOpp{
+  color: #5cb85c;
+}
+
+button.loseOpp{
+  color: #d9534f;
+}
+
+button.rescheduleOpp{
+  color: #f0ad4e;
+}
